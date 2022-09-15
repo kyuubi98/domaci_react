@@ -34,7 +34,7 @@ class KontaktForma extends React.Component {
                         <textarea className="form-control" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
                     </div>
                     <div className="form-group">
-                    <button type="submit" className="btn btn-primary" onClick={() => alert('Poruka je poslata. Ime: ' +this.state.name + '. Email: ' + this.state.email + ', poruka: '+ this.state.message )}> Posalji </button>
+                    <button type="submit" className="btn btn-primary" onClick={() => alert('Poruka je poslata. Ime: ' + this.state.name + '. Email: ' + this.state.email + ', poruka: ' + this.state.message )}> Pošalji </button>
                     </div>
                 </form>
             
